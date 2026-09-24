@@ -6,7 +6,7 @@ Search both Docupedia (Confluence) and Viva Engage in one command.
 
 ### Prerequisites
 
-- Python 3.11+
+- Python
 - Windows environment (for Viva Engage SSO via jarvis)
 - Bosch internal network access
 
@@ -68,15 +68,15 @@ unified_search_app/
 
 ## Features
 
-✅ **Dual-source search** - Query both Docupedia and Viva simultaneously
-✅ **Rich Docupedia data** - Full page content, attachments, version history, labels
-✅ **Complete Viva integration** - Direct jarvis GraphQL API access with proper URLs
-✅ **Structured JSON output** - All results with relevance scores and metadata
-✅ **Attachment support** - Download links for all page attachments with positions
-✅ **Multi-endpoint support** - Searches both Confluence and Confluence2 automatically
-✅ **Flexible filtering** - Control results per platform independently
-✅ **Detailed logging** - Track search execution and errors
-✅ **Windows SSO** - Automatic authentication via jarvis for Viva
+- ✅ **Dual-source search** - Query both Docupedia and Viva simultaneously
+- ✅ **Rich Docupedia data** - Full page content, attachments, version history, labels
+- ✅ **Complete Viva integration** - Direct jarvis GraphQL API access with proper URLs
+- ✅ **Structured JSON output** - All results with relevance scores and metadata
+- ✅ **Attachment support** - Download links for all page attachments with positions
+- ✅ **Multi-endpoint support** - Searches both Confluence and Confluence2 automatically
+- ✅ **Flexible filtering** - Control results per platform independently
+- ✅ **Detailed logging** - Track search execution and errors
+- ✅ **Windows SSO** - Automatic authentication via jarvis for Viva
 
 ## Data Structure
 
