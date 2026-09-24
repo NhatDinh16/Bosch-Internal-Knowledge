@@ -3,6 +3,12 @@
 Search both Docupedia (Confluence) and Viva Engage in one command.
 
 ## Quick Start
+Create a personal API tokens "https://id.atlassian.com/manage-profile/security/api-tokens"
+config environment
+
+CONFLUENCE_BASE_URL=https://inside-docupedia.bosch.com
+CONFLUENCE_API_TOKEN=***  
+CONFLUENCE_USER_EMAIL=user@bosch.com
 
 ```bash
 # 1. Install dependencies
