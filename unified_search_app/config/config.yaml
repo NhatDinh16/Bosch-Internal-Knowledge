@@ -1,0 +1,28 @@
+unified_search_app:
+  name: unified-search
+  environment: development
+
+# Viva Engage settings
+viva:
+  enabled: true
+  max_results: 5 
+  timeout: 10
+
+# Docupedia (Confluence) settings
+docupedia:
+  enabled: true
+  search_strategy: chunks
+  max_results: 15
+  timeout: 10
+
+# Output settings
+output:
+  format: json
+  include_metadata: true
+  include_snippets: true
+  max_snippet_length: 500
+
+# Logging
+logging:
+  level: INFO
+  file: logs/search.log
